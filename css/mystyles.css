@@ -1,0 +1,98 @@
+p{
+    font-weight: bold;
+    font-size: 14px;
+}
+h2{
+    text-decoration: underline;
+}
+.emphasize{
+    color:rgb(152, 191, 192);
+}
+a:visited{
+    color: black;
+    text-decoration: none;}
+    body{
+        background-color:rgb(255, 255, 255);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: 5px solid black;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+        display: block;
+    }
+    ol{list-style-position: inside;
+    text-align: left;}
+    .header{
+        background-color: rgb(197, 127, 174);
+        height: 70px;
+        line-height: 70px;
+    }
+    .footer{
+        background-color:rgb(165, 108, 141);
+        height: 25px;
+        line-height: 25px;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+    .line{
+        height: 20px;
+        color:black;
+    }
+    nav{
+        overflow: hidden;
+    
+    }
+    nav a{
+        float:left;
+        font-size: 16px;
+        padding: 0px 13px;
+        text-decoration: none;
+        
+    }
+
+scratch
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="css/mystyles.css" rel="stylesheet" />
+</head>
+<body>
+ <nav>
+    <a href="./index.html">Return to Home Page</a>
+    <a href="./resume.html">My Resume</a>
+</nav>
+   <div>
+   <h1 class= "header"; id="top">All About Me!</h1> 
+    <a href="#!"><img class="img-fluid" src="assets/img/aboutme.jpg" alt="Me" width = 300/></a> 
+   <h2>Things I like to do:</h2>
+   <ol>
+    <li>Go to concerts</li>
+    <li>cooking</li>
+        <Ul>
+            <li>Tanzania, Africa</li>
+            <li>Switzerland</li>
+            <li>Israel</li>
+        </Ul>
+    <li>Play Sports</li>
+    <li>Anything that involves fun people :)</li>
+   </ol>
+</div>
+<div class="line">________________________________</div>
+<br>
+
+   <h2>I love taking videos of travels or memories</h2>
+   <p class="emphasize">Here is a video I made for my best friend Baylor's birthday</p>
+   <iframe width="500" height="315" src="https://www.youtube.com/embed/XlNNK8Rcn3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+   <br> 
+   <br>
+   <div class="line">________________________________</div>
+   <br>
+   <h2>I also was able to make this graph for a project in class</h2>
+   <div class='tableauPlaceholder' id='viz1681519857284' style='position: relative'><noscript><a href='#'><img alt='P6 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauProject_16815198400140&#47;P6&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TableauProject_16815198400140&#47;P6' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ta&#47;TableauProject_16815198400140&#47;P6&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes'>
+   
